@@ -1,6 +1,5 @@
 import pytest
-from test import get_vcp_com, parse_capabilities
-from .vcp_dummy import DummyVCP as VCP
+from pyddc import VCP, get_vcp_com, parse_capabilities
 
 input_command = get_vcp_com(96)
 lum_command = get_vcp_com(16)
